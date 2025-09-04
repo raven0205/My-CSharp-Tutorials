@@ -9,6 +9,23 @@ This exercise includes the following tasks:
 * Update the BankCustomer class using static members to ensure unique customer IDs.
 * Create a class named BankAccount that implements private, public, and static members.
 
+## Directory Tree
+```{bash}
+.
+├── .github/
+│   └── workflows/
+│       └── dotnet.yml
+├── .vscode/
+│   └── settings.json
+└── Classes_M1/
+    ├── bin/
+    ├── obj/
+    ├── BankAccount.cs
+    ├── BankCustomer.cs
+    ├── Classes_M1.csproj
+    ├── Program.cs
+    └── Classes_M1.slnx
+```
+
 ## 📚 Source
 This project is based on [mslearn-develop-oop-csharp](https://microsoftlearning.github.io/mslearn-develop-oop-csharp/Instructions/Labs/l2p2-lp1-m1-exercise-create-classes-and-objects-in-csharp.html).
-

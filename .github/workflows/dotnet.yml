@@ -21,11 +21,10 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
-      working-directory: classes_M1
+      run: dotnet restore Classes_M1/Classes_M1.csproj
+
     - name: Build
-      run: dotnet build --no-restore
-      working-directory: classes_M1
+      run: dotnet build Classes_M1/Classes_M1.csproj --no-restore
+
     - name: Test
-      run: dotnet test --no-build --verbosity normal
-      working-directory: classes_M1
+      run: dotnet test Classes_M1/Classes_M1.csproj --no-build --verbosity normal
